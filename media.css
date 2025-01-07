@@ -1,0 +1,19 @@
+.ram-dai{
+    font-size: 100px;
+}
+@media(max-width:1500px){
+    .ram-dai{
+        font-size: 10px;
+    }
+}
+@media(max-width:1200px){
+    .ram-dai{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:800px){
+    .ram-dai{
+        font-size: 10px;
+    }
+}

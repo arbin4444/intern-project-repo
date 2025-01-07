@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/* body{
+    overflow-y: hidden;
+} */
+/* .body::-webkit-scrollbar {
+    display: none;
+} */
+    .header-container{
+        display:flex;
+        justify-content: space-between;
+        
+    }
+    .logo-container{
+        display: flex;
+        margin:10px 0 5px 100px;
+        
+    }
+    .logoo{
+        margin-right: 8px;
+    }
+    .lg{
+        width: 80px;
+        height: 45px;
+    }
+    .lgtxt{
+        font-size: 22px;
+        font-family: MS Reference Sans Serif;
+    }
+    .txt{
+        font-weight: bold;
+        font-size: 22px;
+        font-family: MS Reference Sans Serif;
+    }
+    
+    .list-div li{
+        list-style-type: none;
+        display: inline;
+        margin-left: 35px;
+        padding: 0;
+        font-family: MS Reference Sans Serif;
+    }
+    .list-div{
+        margin-top: 20px;
+    }
+     a{
+        text-decoration-line: none;
+        color: black;
+    }
+    .input-box{
+        margin: 12px 5px 0 0;  
+        width: 280px;
+        height: 30px;
+        border-style: solid;
+        border-radius: 30px;
+        font-size: 18px;
+        padding: 0 8px;
+    }
+    .lnk-login{
+        margin-right: 20px;
+    }
+    .contact-form{
+        background-color: brown;
+        display: flex;
+        justify-content: center;
+    }
+    .label-txt{
+        font-size: 18px;
+        font-family: MS Reference Sans Serif;
+    }
+    
+    .top-body-container{
+        background-color: rgb(36, 31, 40);
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    .lst1{
+        margin: 50px 0 80px 0;
+    }
+    .lst1 li{
+        list-style-type: none;
+        color: white;
+        font-size: 16px;
+        
+        margin: 0 0 10px 0;
+    }
+    .lst-title{
+        color: white;
+        font-weight: bold;
+        font-family: MS Reference Sans Serif;
+    }
+    .lst-btn{
+        color: white;
+        background-color: rgb(163, 18, 18);
+        font-size: 15px;
+        padding: 5px 10px;
+        border-style: none;
+        border-radius: 5px;
+        margin-top: 25px;
+    }
+    .bottom-body-container{
+        background-color: rgb(33, 30, 36);
+        display: flex;
+        
+    }
+    .contact-txt{
+        color: white;
+        margin:20px 0 50px 180px;
+        
+    }
+    .contact-txt p {
+        margin: 6px 0 0 0;
+    }
+    

@@ -1,0 +1,212 @@
+ /*Index html*/
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+    .header-container{
+        display:flex;
+        justify-content: space-between;
+        
+    }
+    .logo-container{
+        display: flex;
+        margin:10px 0 5px 100px;
+        
+    }
+    .logoo{
+        margin-right: 8px;
+    }
+    .lg{
+        width: 80px;
+        height: 45px;
+    }
+    .lgtxt{
+        font-size: 22px;
+        font-family: MS Reference Sans Serif;
+    }
+    .txt{
+        font-weight: bold;
+        font-size: 22px;
+        font-family: MS Reference Sans Serif;
+    }
+    
+     .list-div li{
+        list-style-type: none; 
+        display: inline;
+        margin-left: 35px;
+        padding: 0;
+        font-family: MS Reference Sans Serif;
+    }
+    .list-div{
+        margin-top: 20px;
+    }
+     .list-div li a{
+        text-decoration-line: none;
+        color: black;
+    }
+    .input-box{
+        margin: 12px 5px 0 0;  
+        width: 280px;
+        height: 30px;
+        border-style: solid;
+        border-radius: 30px;
+        font-size: 18px;
+        padding: 0 8px;
+    }
+    .lnk-login{
+        margin-right: 20px;
+    }
+    .lnk-login a {
+        text-decoration-line: none;
+        color: black;
+
+    }
+.top-body-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 174, 0);
+}
+ /* .img{
+    background-image: url(pic3.jpg);
+    margin-left: 100px;
+}   */
+.img-content{
+    display: flex;
+    /* justify-content: center; */
+    flex-flow: column;
+    background-color: rgb(255, 174, 0);
+    margin: 50px 40px 0 120px;
+    
+}
+.font{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: MS Reference Sans Serif;
+    margin:0;
+    padding:0;
+}
+.font1{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: MS Reference Sans Serif;
+    
+}
+.font2{
+    margin-top: 20px;
+    padding: 10px 38px;
+    background-color: rgb(161, 99, 0);
+    text-align: center;
+    font-size: 17px;
+    font-family: MS Reference Sans Serif;
+    border-style: hidden;
+    border-radius: 25px;
+}
+.font-div{
+    display: flex;
+    
+}
+.body-container{
+    display: flex;
+    flex-flow: column;
+    background-color: rgb(255, 255, 255);
+}
+.title-txt{
+    margin: 60px 0 30px 0; 
+    text-align: center;
+    background-color:rgb(255, 255, 255) ;
+}
+.title-txt p{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: MS Reference Sans Serif;
+} 
+.body-txt1{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+.test{
+    background-color: rgb(216, 166, 15);
+    font-size: 20px;
+    padding: 16px 18px;
+    font-weight: bold;
+    font-family: MS Reference Sans Serif;
+    border-style: hidden;
+    border-radius: 25px;
+}  
+/* .body-container{
+    display: flex;
+    flex-flow: column;
+} */
+/*Media queries*/
+/* @media only screen and (max-width:1200px){
+    .header-container{
+        background-color: brown;
+    }
+} */
+@media only screen and (max-width:1024px){
+    /* .header-container{
+        background-color: blue;
+    } */
+    .logo-container{
+        margin-left: 20px;
+       
+    }
+    .list-div li{
+        list-style-type: none; 
+        display: block;
+        
+        padding: 0;
+        font-family: MS Reference Sans Serif;
+    }
+    .top-body-container{
+        display: flex;
+        flex-flow: column;
+        
+    }
+    .img{
+        width:100%;
+        /* background-color: cadetblue; */
+    }
+    .imgstyle{
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width:900px){
+    .header-container{ 
+        /* background-color: rgb(147, 93, 93); */
+        flex-flow: column;
+    
+    }
+    .logo-container{
+        margin-left: 20px;
+    }
+    .list-div li{
+        
+        display: inline-block;
+        
+        /* background-color: blanchedalmond; */
+        
+    }
+    .input-box{
+        margin: 15px 0 10px 20px;  
+    }
+    .top-body-container{
+        display: flex;
+        flex-flow: column;
+        background-color: rgb(255, 174, 0);
+    }
+    .list-div{
+        text-align:center;
+        /* background-color: blueviolet; */
+    }
+    .nav-input-box{
+        text-align: center;
+    }
+
+} 
+

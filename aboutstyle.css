@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body::-webkit-scrollbar { /*hides the scrollbar but it functions*/
+    display: none;
+} 
+    .header-container{
+        display:flex;
+        justify-content: space-between;
+        
+    }
+    .logo-container{
+        display: flex;
+        margin:10px 0 5px 100px;
+        
+    }
+    .logoo{
+        margin-right: 8px;
+    }
+    .lg{
+        width: 80px;
+        height: 45px;
+    }
+    .lgtxt{
+        font-size: 22px;
+        font-family: MS Reference Sans Serif;
+    }
+    .txt{
+        font-weight: bold;
+        font-size: 22px;
+        font-family: MS Reference Sans Serif;
+    }
+    
+     .list-div li{
+        list-style-type: none;
+        display: inline;
+        margin-left: 35px;
+        padding: 0;
+        font-family: MS Reference Sans Serif;
+    }
+    .list-div{
+        margin-top: 20px;
+    }
+     .list-div li a{
+        text-decoration-line: none;
+        color: black;
+    }
+    .input-box{
+        margin: 12px 5px 0 0;  
+        width: 280px;
+        height: 30px;
+        border-style: solid;
+        border-radius: 30px;
+        font-size: 18px;
+        padding: 0 8px;
+    }
+    .lnk-login{
+        margin-right: 20px;
+    }
+    .lnk-login a {
+        text-decoration-line: none;
+        color: black;
+
+    }
+    /*about US CSS*/
+    .top-body-container{
+        background-color: rgb(20, 33, 117);
+        display: flex;
+        flex-flow: column;
+    }
+    .first{
+        margin: 35px 0 0 108px;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        font-weight: bold;
+        font-family: MS Reference Sans Serif;
+    }
+    .second{
+        margin:20px 0 10px 108px;
+        color: rgb(255, 255, 255);
+        font-family: MS Reference Sans Serif;
+        font-size: 16px;
+    }
+    .second a{
+        color: aliceblue;
+        text-decoration-line: none;
+    }
+    .nav-search{
+        /* background-color: rgb(227, 225, 231); */
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 108px 0 108px;
+        border-style: hidden;
+        border-radius: 8px;
+    }
+    .nav-btn{
+        margin: 5px 0 5px 10px;
+        border-style: hidden;
+        border-radius: 8px;
+    }
+    
+    .nav-btn button{
+        font-size: 16px;
+        padding:5px 8px;
+    }
+    .nav-input-type{
+        font-size: 18px;
+        height: 30px;
+        margin: 5px 10px 0 0;
+        padding-left:5px;
+        border-style: solid;
+        border-radius: 8px;
+    } 
+    .line{
+        margin:0 110px;
+    } 
+     .row{
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(255, 255, 255);
+        margin: 50px 86px;
+
+     }
+     .fnt1{
+        font-size: 17px;
+        font-weight: bold;
+        font-family: MS Reference Sans Serif;
+        margin-top:8px;
+     }
+     .fnt2{
+        font-size: 16px;
+        font-weight: bold;
+        font-family: MS Reference Sans Serif;
+     }
+     .fnt3{
+        font-size: 17px;
+        font-weight: bold;
+        font-family: MS Reference Sans Serif;
+     }
+     
+
+
+
+     @media only screen and (max-width:1024px) {
+        .logo-container{
+            margin-left: 20px;
+           
+        }
+        .list-div li{
+            list-style-type: none; 
+            display: block;
+            
+            padding: 0;
+            font-family: MS Reference Sans Serif;
+        }
+
+
+
+        
+    }
